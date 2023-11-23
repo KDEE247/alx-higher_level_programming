@@ -6,8 +6,8 @@ This module defines a matrix division function "matrix_divided(matrix, div)".
 
 Usage
 
-"matrix_divided(...)" returns a new matrix that is a copy of the parameter
-"matrix" with all elements divided by "div".
+''matrix_divided(...'' returns a new matrix that is a copy of the parameter
+''matrix'' with all elements divided by ''div''.
 
 
 ::
@@ -77,7 +77,7 @@ Integers, and floats can be combined.
 Invalid Matrices.
 
 
-The parameter "matrix" must be a list of lists consisting of either ints, or
+The parameter ''matrix'' must be a list of lists consisting of either ints, or
 floats. If "matrix" is not a list, a TypeError is raised.
 
 
@@ -172,7 +172,7 @@ of different sizes, a new TypeError is raised.
 Invalid Divisors
 
 
-The parameter "div" must be either an int or float. Otherwise, a TypeError
+The parameter ''div'' must be either an int or float. Otherwise, a TypeError
 is raised.
 
 
@@ -196,7 +196,7 @@ is raised.
     TypeError: div must be a number
 
 
-"div" must also be non-zero. Otherwise, a ZeroDivisionError is raised.
+''div'' must also be non-zero. Otherwise, a ZeroDivisionError is raised.
 
 
 ::
