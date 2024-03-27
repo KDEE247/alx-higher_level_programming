@@ -21,4 +21,3 @@ request.get(process.argv[2], { json: true }, (error, response, body) => {
   });
   console.log(tasksCompleted);
 });
-
